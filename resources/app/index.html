@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="node_modules/material-design-icons-iconfont/dist/material-design-icons.css">
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <title>FQplot</title>
+  </head>
+  <body>
+    <div id="imageContainer"></div>
+      <!-- <button id="Run">Plot Quality</button>
+      <button id="SelectFiles">Select Files</button> -->
+      <div id='ButtonContainer' class="row center">
+        <a class="waves-effect waves-light btn pink darken-2" id="SelectFiles"><i class="material-icons right">insert_drive_file</i>Select Files</a>
+        <a class="waves-effect waves-light btn pink darken-2" id="Run"><i class="material-icons right">show_chart</i>Plot quality</a>
+      </div>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

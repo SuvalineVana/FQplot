@@ -1,0 +1,41 @@
+body {
+    background: #e1eec3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f05053, #e1eec3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f05053, #e1eec3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#imageContainer {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.image {
+    background-image: url('test.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#SelectFiles {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#Run {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#ButtonContainer {
+    width: 750px;
+    height: 50px;
+}
+
+
+.image2 {
+    background-image: url('dist/quality/wallpaper4.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
